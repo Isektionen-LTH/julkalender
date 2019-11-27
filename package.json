@@ -1,0 +1,13 @@
+{
+  "name": "julkalender",
+  "version": "1.0.0",
+  "description": "I-sektionens julkalender",
+  "repository": "git@github.com:Isektionen-LTH/julkalender.git",
+  "author": "WebbI <webb@isek.se>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.0",
+    "snowf": "^0.0.3"
+  }
+}
