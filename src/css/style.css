@@ -1,0 +1,30 @@
+#header {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #cfebf7 0%,#94dfff 100%);
+  position: relative;
+}
+
+.img-container {
+
+}
+
+.snowman {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: 15%;
+  max-width: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.img {
+  max-height: 100%;
+  max-width: 100%;
+}
