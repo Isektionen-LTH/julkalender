@@ -1,0 +1,33 @@
+:root {
+  --guild-color: #70002d;
+}
+
+@font-face {
+  font-family: 'Chopin Script';
+  src: url('../fonts/chopinscript-webfont.eot');
+  src: url('../fonts/chopinscript-webfont.woff2') format('woff2'),
+       url('../fonts/chopinscript-webfont.woff') format('woff'),
+       url('../fonts/chopinscript-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"French Script MT";
+	src: url('../fonts/French-script-MT.ttf') format('truetype');
+  src: url('../fonts/French-script-MT.woff') format('woff'),
+		   url('../fonts/French-script-MT.eot'),
+		   url('../fonts/French-script-MT.otf');
+}
+
+body {
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Chopin Script;
+}
+
+h1 {
+  font-size: 80px;
+}
