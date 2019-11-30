@@ -49,11 +49,13 @@ else {
     <link rel="stylesheet" href="./css/lucka.css">
 
     <title>
-      <?php if ($lucka !== 'error' && $lucka !== 'peeking') echo 'Lucka ' . $lucka . ' '; ?>
+      <?php if ($lucka !== 'error' && $lucka !== 'peeking') echo 'Lucka ' . $lucka . ' - '; ?>
       Julkalendern 2019
     </title>
   </head>
   <body>
-    <?php require 'luckor/' . $lucka . '.html'; ?>
+    <div class="container-fluid">
+      <?php require 'luckor/' . $lucka . '.html'; ?>
+    </div>
   </body>
 </html>
