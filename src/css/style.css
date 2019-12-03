@@ -25,16 +25,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Chopin Script;
+  text-align: center;
 }
 
 h1 {
   font-size: 100px;
+  font-family: Chopin Script;
 }
 
 h2 {
   font-size: 65px;
   font-family: French Script MT;
+}
+
+h3 {
+  font-family: Chopin Script;
 }
 
 .container-fluid {
