@@ -2,3 +2,7 @@ body {
   background-color: var(--guild-color);
 }
 
+.embed-responsive {
+  max-width: 560px;
+  max-height: 315px;
+}
