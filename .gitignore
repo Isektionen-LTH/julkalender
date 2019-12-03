@@ -1,2 +1,6 @@
 # NPM Dependencies
 src/vendor/
+
+# Completed luckor so we don't spoil anything
+src/luckor/*.html
+!src/luckor/*.example.html
